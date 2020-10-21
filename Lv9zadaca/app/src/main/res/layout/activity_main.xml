@@ -1,0 +1,63 @@
+<LinearLayout android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:orientation="vertical"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Simple tabs"
+        android:background="@color/colorAccent"
+        android:layout_margin="3dp"
+        android:textColor="#ffff"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Scrollable tabs"
+        android:background="@color/colorAccent"
+        android:layout_margin="3dp"
+        android:textColor="#ffff"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Icon and text tabs"
+        android:layout_margin="3dp"
+        android:background="@color/colorAccent"
+        android:textColor="#ffff"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Only icon tabs"
+        android:background="@color/colorAccent"
+        android:layout_margin="3dp"
+        android:textColor="#ffff"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Bottom navigation"
+        android:background="@color/colorAccent"
+        android:layout_margin="3dp"
+        android:textColor="#ffff"/>
+</LinearLayout>
